@@ -6,8 +6,8 @@ const htmlModules = require('./themeConfig/htmlModules.js');
 module.exports = {
   nav,
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-  logo: '/img/EB-logo.png', // 导航栏logo
-  repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+  logo: '/img/icode-logo.png', // 导航栏logo
+  repo: 'iqqcode/icode', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 编辑的文件夹
@@ -47,18 +47,18 @@ module.exports = {
 
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: 'xugaoyi', // 必需
-    link: 'https://github.com/xugaoyi', // 可选的
+    name: 'iqqcode', // 必需
+    link: 'https://github.com/IQQcode', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https: //iqqcode-blog.oss-cn-beijing.aliyuncs.com/img-2021-befo/20210425100040.png',
+    avatar: '/img/avatar.png',
     name: 'iqqcode',
     slogan: '保持对技术的探索实践与热爱',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
-    // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
+    iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
       {
         iconClass: 'icon-youjian',
@@ -71,9 +71,14 @@ module.exports = {
         link: 'https://github.com/IQQcode',
       },
       {
-        iconClass: 'icon-blog',
+        iconClass: 'icon-csdn',
         title: 'CSDN',
         link: 'https://blog.csdn.net/weixin_43232955',
+      },
+      {
+        iconClass: 'icon-zhihu',
+        title: '知乎',
+        link: 'https://www.zhihu.com/people/iqqcode'
       },
     ],
   },
