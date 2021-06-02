@@ -2,51 +2,79 @@
 module.exports = [
   { text: '首页', link: '/' },
   {
-    text: '前端',
-    link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+    text: 'Android',
+    link: '/android/', //目录页链接，此处link是voding主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
-        text: '前端文章',
+        text: 'Android学习',
         items: [
-          { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-          { text: 'Vue', link: '/pages/5d463fbdb172d43b/' },
+          {
+            text: '📁Basic',
+            link: '/pages/51b303/'
+          },
+          {
+            text: '📺四大组件',
+            link: '/pages/3e134f/'
+          },
+          {
+            text: '🎨Layout',
+            link: '/pages/9b02ab/'
+          },
+          {
+            text: '📷基础控件',
+            link: '/pages/bd8b53/'
+          },
+          {
+            text: '📊Fragment',
+            link: '/pages/95e963/'
+          },
+          {
+            text: '🔗网络',
+            link: '/pages/3e134f/'
+          },
+          {
+            text: '📦数据存储',
+            link: '/pages/8c2b40/'
+          },
         ],
       },
       {
         text: '学习笔记',
         items: [
-          { text: '《JavaScript教程》笔记', link: '/note/javascript/' },
-          { text: '《JavaScript高级程序设计》笔记', link: '/note/js/' },
-          { text: '《ES6 教程》笔记', link: '/note/es6/' },
-          { text: '《Vue》笔记', link: '/note/vue/' },
-          { text: '《React》笔记', link: '/note/react/' },
           {
-            text: '《TypeScript 从零实现 axios》',
-            link: '/note/typescript-axios/',
+            text: '『框架』笔记',
+            link: '/note/frame/'
+          },
+          {
+            text: '『Kotlin』笔记',
+            link: '/note/kotlin/'
+          },
+          {
+            text: '《Vue》笔记',
+            link: '/note/vue/'
           },
           {
             text: '《Git》学习笔记',
             link: '/note/git/',
-          },
-          {
-            text: 'TypeScript笔记',
-            link: '/pages/51afd6/',
-          },
-          {
-            text: 'JS设计模式总结笔记',
-            link: '/pages/4643cd/',
           },
         ],
       },
     ],
   },
   {
-    text: '页面',
-    link: '/ui/',
+    text: 'Component',
+    link: '/component/',
     items: [
-      { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-      { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+      {
+        text: 'ListView',
+        link: '/pages/04bab7/'
+      },
+      { text: 'RecyclerView', link: '/pages/0a83b083bdf257cb/' },
+      {
+        text: 'ViewPager',
+        link: '/pages/2074bf/'
+      },
     ],
   },
   {
