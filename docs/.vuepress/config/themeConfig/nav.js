@@ -1,6 +1,8 @@
 // nav
-module.exports = [
-  { text: '首页', link: '/' },
+module.exports = [{
+    text: '首页',
+    link: '/'
+  },
   {
     text: 'Android',
     link: '/android/', //目录页链接，此处link是voding主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
@@ -8,8 +10,7 @@ module.exports = [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
         text: 'Android学习',
-        items: [
-          {
+        items: [{
             text: '📁Basic',
             link: '/pages/51b303/'
           },
@@ -18,31 +19,34 @@ module.exports = [
             link: '/pages/3e134f/'
           },
           {
-            text: '🎨Layout',
+            text: '🎨Android UI',
             link: '/pages/9b02ab/'
           },
           {
-            text: '📷基础控件',
-            link: '/pages/bd8b53/'
+            text: '📷高级控件',
+            link: '/pages/49df9e/'
           },
           {
             text: '📊Fragment',
             link: '/pages/95e963/'
           },
           {
-            text: '🔗网络',
-            link: '/pages/3e134f/'
+            text: '🔗网络操作',
+            link: '/pages/7ba642/'
+          },
+          {
+            text: '🔏异步机制',
+            link: '/pages/83b5b7/'
           },
           {
             text: '📦数据存储',
-            link: '/pages/8c2b40/'
+            link: '/pages/eecb9c/'
           },
         ],
       },
       {
         text: '学习笔记',
-        items: [
-          {
+        items: [{
             text: '『框架』笔记',
             link: '/note/frame/'
           },
@@ -65,12 +69,14 @@ module.exports = [
   {
     text: 'Component',
     link: '/component/',
-    items: [
-      {
+    items: [{
         text: 'ListView',
         link: '/pages/04bab7/'
       },
-      { text: 'RecyclerView', link: '/pages/0a83b083bdf257cb/' },
+      {
+        text: 'RecyclerView',
+        link: '/pages/0a83b083bdf257cb/'
+      },
       {
         text: 'ViewPager',
         link: '/pages/2074bf/'
@@ -80,41 +86,85 @@ module.exports = [
   {
     text: '技术',
     link: '/technology/',
-    items: [
-      { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-      { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-      { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-      { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+    items: [{
+        text: '技术文档',
+        link: '/pages/9a7ee40fc232253e/'
+      },
+      {
+        text: 'GitHub技巧',
+        link: '/pages/4c778760be26d8b3/'
+      },
+      {
+        text: 'Nodejs',
+        link: '/pages/117708e0af7f0bd9/'
+      },
+      {
+        text: '博客搭建',
+        link: '/pages/41f87d890d0a02af/'
+      },
     ],
   },
   {
     text: '更多',
     link: '/more/',
-    items: [
-      { text: '学习', link: '/pages/f2a556/' },
-      { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-      { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-      { text: '实用技巧', link: '/pages/baaa02/' },
-      { text: '友情链接', link: '/friends/' },
+    items: [{
+        text: '学习',
+        link: '/pages/f2a556/'
+      },
+      {
+        text: '面试',
+        link: '/pages/aea6571b7a8bae86/'
+      },
+      {
+        text: '心情杂货',
+        link: '/pages/2d615df9a36a98ed/'
+      },
+      {
+        text: '实用技巧',
+        link: '/pages/baaa02/'
+      },
+      {
+        text: '友情链接',
+        link: '/friends/'
+      },
     ],
   },
-  { text: '关于', link: '/about/' },
+  {
+    text: '关于',
+    link: '/about/'
+  },
   {
     text: '收藏',
     link: '/pages/beb6c0bd8a66cea6/',
-    items: [
-      { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-      { text: '资源', link: '/pages/eee83a9211a70f9d/' },
-      { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
+    items: [{
+        text: '网站',
+        link: '/pages/beb6c0bd8a66cea6/'
+      },
+      {
+        text: '资源',
+        link: '/pages/eee83a9211a70f9d/'
+      },
+      {
+        text: 'Vue资源',
+        link: '/pages/12df8ace52d493f6/'
+      },
     ],
   },
   {
     text: '索引',
     link: '/archives/',
-    items: [
-      { text: '分类', link: '/categories/' },
-      { text: '标签', link: '/tags/' },
-      { text: '归档', link: '/archives/' },
+    items: [{
+        text: '分类',
+        link: '/categories/'
+      },
+      {
+        text: '标签',
+        link: '/tags/'
+      },
+      {
+        text: '归档',
+        link: '/archives/'
+      },
     ],
   },
 ]

@@ -2,7 +2,7 @@
 
 // 侧边栏
 module.exports = {
-  '/01.前端/': [
+  '/01.移动端/': [
     {
       title: 'JavaScript',
       collapsable: false, //是否可折叠，可选的，默认true
@@ -16,7 +16,7 @@ module.exports = {
       ]
     },
   ],
-  '/02.页面/': [
+  '/02.后端/': [
     {
       title: 'html-css',
       collapsable: false,
