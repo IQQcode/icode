@@ -84,6 +84,55 @@ module.exports = [{
     ],
   },
   {
+    text: 'Java后端',
+    link: '/java/',
+    items: [{
+        text: 'Java笔记',
+        items: [{
+            text: '🟠JavaSE',
+            link: '/pages/b003f8/'
+          },
+          {
+            text: '🟢JavaWeb',
+            link: '/pages/411a7c/'
+          },
+          {
+            text: '🔴JavaEE',
+            link: '/pages/740fbb/'
+          },
+          {
+            text: '⚪JavaTopic',
+            link: '/pages/dc7624/'
+          },
+          {
+            text: '🍳设计模式',
+            link: '/pages/c900bf/'
+          },
+        ],
+      },
+      {
+        text: '计算机基础',
+        items: [{
+            text: '📌计算机网络',
+            link: '/note/csnet/'
+          },
+          {
+            text: '🔍数据结构',
+            link: '/note/datastruct/'
+          },
+          {
+            text: '📦数据库',
+            link: '/note/database/'
+          },
+          {
+            text: '💻OS',
+            link: '/note/os/'
+          },
+        ],
+      },
+    ],
+  },
+  {
     text: '技术',
     link: '/technology/',
     items: [{
@@ -130,23 +179,31 @@ module.exports = [{
     ],
   },
   {
-    text: '关于',
-    link: '/about/'
-  },
-  {
-    text: '收藏',
-    link: '/pages/beb6c0bd8a66cea6/',
+    text: 'About',
+    link: '/about/',
     items: [{
-        text: '网站',
-        link: '/pages/beb6c0bd8a66cea6/'
+        text: '关于',
+        items: [{
+          text: '📫关于我',
+          link: '/pages/51b303/'
+        }, ],
       },
       {
-        text: '资源',
-        link: '/pages/eee83a9211a70f9d/'
-      },
-      {
-        text: 'Vue资源',
-        link: '/pages/12df8ace52d493f6/'
+        text: '收藏',
+        link: '/pages/beb6c0bd8a66cea6/',
+        items: [{
+            text: '网站',
+            link: '/pages/beb6c0bd8a66cea6/'
+          },
+          {
+            text: '资源',
+            link: '/pages/eee83a9211a70f9d/'
+          },
+          {
+            text: 'Vue资源',
+            link: '/pages/12df8ace52d493f6/'
+          },
+        ],
       },
     ],
   },

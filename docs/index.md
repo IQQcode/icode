@@ -13,11 +13,11 @@ features: # 可选的
     link: /web/ # 可选
     imgUrl: /img/web.png # 可选
   - title: 后端
-    details: Java后端、计算机基础等相关知识
+    details: Java后端、算法、计算机基础等相关知识
     link: /ui/
     imgUrl: /img/ui.png
   - title: 技术
-    details: 技术文档、算法、随笔、总结等文章
+    details: 技术文档、随笔、总结等文章
     link: /technology/
     imgUrl: /img/other.png
 
