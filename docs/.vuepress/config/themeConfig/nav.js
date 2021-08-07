@@ -185,7 +185,7 @@ module.exports = [{
         text: '关于',
         items: [{
           text: '📫关于我',
-          link: '/pages/51b303/'
+          link: '/pages/1cbe0d/'
         }, ],
       },
       {
