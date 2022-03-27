@@ -11,11 +11,11 @@ module.exports = [{
       {
         text: 'Android学习',
         items: [{
-            text: '📁Basic',
+            text: '📁基础内容',
             link: '/pages/51b303/'
           },
           {
-            text: '📺四大组件',
+            text: '📺AndroidCore',
             link: '/pages/3e134f/'
           },
           {
@@ -23,7 +23,7 @@ module.exports = [{
             link: '/pages/9b02ab/'
           },
           {
-            text: '📷高级控件',
+            text: '🏖️Components',
             link: '/pages/49df9e/'
           },
           {
@@ -40,6 +40,10 @@ module.exports = [{
           },
           {
             text: '📦数据存储',
+            link: '/pages/eecb9c/'
+          },
+          {
+            text: '🗃️Gradle',
             link: '/pages/eecb9c/'
           },
         ],
