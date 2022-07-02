@@ -66,6 +66,10 @@ module.exports = [{
             text: '《Git》学习笔记',
             link: '/note/git/',
           },
+          {
+            text: '『Bug踩坑记录』',
+            link: '/note/bug/',
+          },
         ],
       },
     ],
