@@ -19,8 +19,8 @@ module.exports = [{
             link: '/pages/3e134f/'
           },
           {
-            text: '🎨Android UI',
-            link: '/pages/9b02ab/'
+            text: '🎨Android-UI',
+            link: '/pages/e4a74c/'
           },
           {
             text: '🏖️Components',
@@ -83,7 +83,7 @@ module.exports = [{
       },
       {
         text: 'RecyclerView',
-        link: '/pages/0a83b083bdf257cb/'
+        link: '/pages/e51974/'
       },
       {
         text: 'ViewPager',
@@ -102,19 +102,19 @@ module.exports = [{
           },
           {
             text: '🟢JavaWeb',
-            link: '/pages/411a7c/'
+            link: '/pages/d65d4f/'
           },
           {
             text: '🔴JavaEE',
-            link: '/pages/740fbb/'
+            link: '/pages/f7d1fe/'
           },
           {
             text: '⚪JavaTopic',
-            link: '/pages/dc7624/'
+            link: '/pages/78e80a/'
           },
           {
             text: '🍳设计模式',
-            link: '/pages/c900bf/'
+            link: '/pages/1ce44e/'
           },
         ],
       },
